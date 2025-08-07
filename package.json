@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "build": "sass src/styles/index.scss dist/css/design-system.css",
-    "test": "npm run build"
+    "test": "npm run build && node test/parallaxZoom.test.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "jsdom": "^24.0.0",
     "sass": "^1.90.0"
   }
 }
