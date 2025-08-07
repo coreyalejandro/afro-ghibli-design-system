@@ -1,0 +1,82 @@
+body {
+  background: #0d1117;
+  color: #c9d1d9;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #c9d1d9;
+  font-weight: bold;
+}
+
+.secondary-text {
+  color: #8b949e;
+}
+
+.btn {
+  border-radius: 6px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid #30363d;
+  background: #21262d;
+  color: #c9d1d9;
+  padding: 0.5rem 1.25rem;
+  font-size: 0.95em;
+  letter-spacing: 0.02em;
+  margin-right: 0.5em;
+}
+
+.btn-accent-red {
+  background: #ed6a5e;
+  color: #fff;
+}
+
+.btn-accent-green {
+  background: #83c67e;
+  color: #21262d;
+}
+
+.btn-accent-yellow {
+  background: #e6c07b;
+  color: #21262d;
+}
+
+.btn-accent-blue {
+  background: #7f9fa6;
+  color: #21262d;
+}
+
+.card, .panel {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 1.5rem;
+  color: #c9d1d9;
+  margin-bottom: 24px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #161b22;
+  color: #c9d1d9;
+  font-size: 1em;
+}
+
+.table th, .table td {
+  padding: 0.75em 1.25em;
+  border: 1px solid #30363d;
+  text-align: left;
+}
+
+.table th {
+  background: #161b22;
+  font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+  background: #21262d;
+}
+
+/*# sourceMappingURL=design-system.css.map */
