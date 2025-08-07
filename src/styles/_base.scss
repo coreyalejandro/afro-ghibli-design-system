@@ -1,0 +1,17 @@
+@use 'variables' as *;
+
+body {
+  background: $color-background;
+  color: $color-text-primary;
+  font-family: $font-family-base;
+  font-size: $font-size-body;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $color-text-primary;
+  font-weight: bold;
+}
+
+.secondary-text {
+  color: $color-text-secondary;
+}

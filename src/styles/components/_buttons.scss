@@ -1,0 +1,19 @@
+@use '../variables' as *;
+
+.btn {
+  border-radius: $radius-button;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid $color-border;
+  background: $color-row-highlight;
+  color: $color-text-primary;
+  padding: 0.5rem 1.25rem;
+  font-size: 0.95em;
+  letter-spacing: 0.02em;
+  margin-right: 0.5em;
+}
+
+.btn-accent-red { background: $color-accent-red; color: #fff; }
+.btn-accent-green { background: $color-accent-green; color: $color-row-highlight; }
+.btn-accent-yellow { background: $color-accent-yellow; color: $color-row-highlight; }
+.btn-accent-blue { background: $color-accent-blue; color: $color-row-highlight; }

@@ -1,0 +1,10 @@
+@use '../variables' as *;
+
+.card, .panel {
+  background: $color-card;
+  border: 1px solid $color-border;
+  border-radius: $radius-card;
+  padding: $padding-card;
+  color: $color-text-primary;
+  margin-bottom: $spacing-section;
+}

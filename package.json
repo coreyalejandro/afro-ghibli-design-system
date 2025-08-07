@@ -1,0 +1,17 @@
+{
+  "name": "afro-ghibli-design-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass src/styles/index.scss dist/css/design-system.css",
+    "test": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "sass": "^1.90.0"
+  }
+}
